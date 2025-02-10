@@ -1,10 +1,9 @@
 ## Codigo proporcionado por el Profesor
 
+
 from pysolar.solar import get_altitude, get_azimuth
 from datetime import datetime
 from pytz import timezone
-
-
 def getSolarPosition(
     latitude: float = -0.2105367,
     longitude: float = -78.491614,
