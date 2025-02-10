@@ -20,9 +20,7 @@ def getSolarPosition(
 
 
 getSolarPosition()
-
-
-
+'''
 
 # Proyecto-Final-Panel-Solar
 
