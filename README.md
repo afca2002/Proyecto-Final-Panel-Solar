@@ -1,27 +1,36 @@
+
 ## Codigo proporcionado por el Profesor
+Con el siguiente snippet de código puede obtener la posición del sol en un lugar (Campus EPN, por defecto) y fecha determinada (fecha y hora actual, por defecto).
 
-
-## 📝 Código
 ```python
 from pysolar.solar import get_altitude, get_azimuth
 from datetime import datetime
 from pytz import timezone
+
 
 def getSolarPosition(
     latitude: float = -0.2105367,
     longitude: float = -78.491614,
     date: datetime = datetime.now(tz=timezone("America/Guayaquil")),
 ):
-    """Calcula el azimuth y la elevación para una posición geográfica (por defecto la EPN) y la fecha date."""
+    """Calcula el ``azimuth`` y la ``elevation`` para una posición geográfica (por defecto la EPN) y la fecha ``date``.
+
+    ## Parameters
+
+    ## Return
+    ``azimuth``: ángulo en grados desde el norte hasta la projección en la tierra [0 -> 360).
+    ``elevation``: ángulo del sol hacia la proyección en la tierra [-90 -> 90].
+
+    """
+
     az = get_azimuth(latitude, longitude, date)
     el = get_altitude(latitude, longitude, date)
+
     return az, el
 
 
-
 getSolarPosition()
-'''
-
+```
 # Proyecto-Final-Panel-Solar
 
 # Instalación de Dependencias para el Simulador de Seguidor Solar
