@@ -64,4 +64,4 @@ Ejecuta el siguiente comando en una celda de Jupyter Notebook para instalar toda
 
 ### Video
 
-[Ver video](assets/Video_de_ejecucion.mp4)
+[![Haz clic para ver el video](assets/Video.png)](assets/Video_de_ejecucion.mp4)
