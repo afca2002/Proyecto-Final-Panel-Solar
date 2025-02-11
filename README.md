@@ -71,6 +71,6 @@ Ejecuta el siguiente comando en una celda de Jupyter Notebook para instalar toda
 
 ## Presentacion del Proyecto
 
-<a href="[https://www.canva.com/design/DAGX5xTybn8/irjvjereVYqLB5qGz30e9w/edit](https://www.canva.com/design/DAGezUgIfC0/pfvBaL5aY5UGZGCEqbdWnA/edit)">
+<a href="https://www.canva.com/design/DAGezUgIfC0/pfvBaL5aY5UGZGCEqbdWnA/edit">
   <img src="canva.jpg" alt="Haz clic para abrir Canva" width="150">
 </a>
