@@ -65,3 +65,6 @@ Ejecuta el siguiente comando en una celda de Jupyter Notebook para instalar toda
 ### Video
 
 [![Haz clic para ver el video](assets/Video.png)](assets/Video_de_ejecucion.mp4)
+
+## Informe 
+[![Haz clic para ver el video](assets/Imagen3.png)](Informe_sobrevuelo.pdf)
