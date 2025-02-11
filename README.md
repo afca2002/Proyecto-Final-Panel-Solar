@@ -62,3 +62,6 @@ Ejecuta el siguiente comando en una celda de Jupyter Notebook para instalar toda
 - `pysolar`: Para calcular la posición del sol en función de coordenadas geográficas y tiempo.
 - `astral`: Para obtener información sobre el amanecer y atardecer.
 
+### Video
+
+[Ver video](assets/Video_de_ejecucion.mp4)
